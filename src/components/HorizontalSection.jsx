@@ -198,7 +198,7 @@ const HorizontalSection = () => {
                         <div className="w-single_tab">
                             <div className="w-single_tab_container">
                                 <div className="w-single_tab_field">
-                                    <h2>+ Related</h2>
+                                    <h2>+Related</h2>
                                 </div>
                                 <h3>03</h3>
                             </div>
@@ -208,15 +208,22 @@ const HorizontalSection = () => {
                                 loop
                                 autoPlay
                                 muted
-                                className="h-full aspect-square object-contain scale-90 cursor-pointer w-fit"
-                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406596/interactivehero_cirexd.webm"
+                                className="h-full aspect-square object-cover scale-90 cursor-pointer w-fit"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406648/fadesmothscroll_uycwaw.webm"
+                            />
+                            <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square object-contain scale-90 cursor-pointer w-fit object-center"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406704/grindspace_znehi7.webm"
                             />
                             {/* <img
                                 src="https://image.mux.com/bUaE21XAyGg01ukbrs6gjfbLLKdiWkJiOKl4k6BijKt00/thumbnail.png"
                             /> */}
-                            <img
+                            {/* <img
                                 src="https://image.mux.com/iUNO01UbTljTejVeCTpbQCbIYCMkXj85I2LJuRtIx00wg/thumbnail.png"
-                            />
+                            /> */}
                             <img
                                 src="https://images.beta.cosmos.so/fac6b277-7c72-477b-ba2b-acd451b69e02?format=webp&w=400"
                             />
