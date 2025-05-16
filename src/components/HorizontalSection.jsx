@@ -181,16 +181,16 @@ const HorizontalSection = () => {
                             </a>
                             {/* <img
                                 src="https://image.mux.com/b7EecOFRXt7aIbzMbCEBFmdezPLbsfeJqwvoETAkj00o/thumbnail.png"
-                            /> */}
+                                /> */}
                             {/* <img
                                 src="https://image.mux.com/nr7EnaIAXw01AewsHmmZteXLr3K900v002NSMrTn6lAAP00/thumbnail.png"
-                            /> */}
+                                /> */}
                             {/* <img
                                 src="https://image.mux.com/sfR6d6NwI9RAj4hgVKWU01Ee90201kpSPCF41x24T52Suw/thumbnail.png"
-                            /> */}
+                                /> */}
                             {/* <img
                                 src="https://images.beta.cosmos.so/dbe7b1c2-ed70-4af1-97db-beb01faf22cc?format=webp"
-                            /> */}
+                                /> */}
                         </div>
                     </section>
 
@@ -198,15 +198,22 @@ const HorizontalSection = () => {
                         <div className="w-single_tab">
                             <div className="w-single_tab_container">
                                 <div className="w-single_tab_field">
-                                    <h2>Commercial</h2>
+                                    <h2>+ Related</h2>
                                 </div>
                                 <h3>03</h3>
                             </div>
                         </div>
                         <div className="w-single_gallery">
-                            <img
-                                src="https://image.mux.com/bUaE21XAyGg01ukbrs6gjfbLLKdiWkJiOKl4k6BijKt00/thumbnail.png"
+                            <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square object-contain scale-90 cursor-pointer w-fit"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406596/interactivehero_cirexd.webm"
                             />
+                            {/* <img
+                                src="https://image.mux.com/bUaE21XAyGg01ukbrs6gjfbLLKdiWkJiOKl4k6BijKt00/thumbnail.png"
+                            /> */}
                             <img
                                 src="https://image.mux.com/iUNO01UbTljTejVeCTpbQCbIYCMkXj85I2LJuRtIx00wg/thumbnail.png"
                             />
