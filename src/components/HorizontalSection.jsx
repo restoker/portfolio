@@ -75,18 +75,58 @@ const HorizontalSection = () => {
                             </div>
                         </div>
                         <div className="w-single_gallery">
-                            <img
+                            {/* <img
                                 src="https://images.beta.cosmos.so/4cd9ace0-193a-4ce8-8100-531713ced975?format=webp&w=400"
+                            /> */}
+                            {/* <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square ml-3"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747404982/armor_cus7l1.webm"
+                            /> */}
+                            {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747405516/lavelada_j4ksnz.webm */}
+                            {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747405862/thumbnailnavigation_ercuex.webm */}
+                            {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406596/interactivehero_cirexd.webm */}
+                            {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406648/fadesmothscroll_uycwaw.webm */}
+                            {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406704/grindspace_znehi7.webm */}
+                            <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square object-contain scale-90"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747404982/armor_cus7l1.webm"
                             />
-                            <img
+                            <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square object-fill scale-75"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747405862/thumbnailnavigation_ercuex.webm"
+                            />
+                            <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square object-contain scale-75"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406596/interactivehero_cirexd.webm"
+                            />
+                            <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square object-fill scale-75"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747408171/repeathero_qogx8b.webm"
+                            />
+                            {/* <img
                                 src="https://image.mux.com/kD0191i00pUsxhx8LmMK4eoPxA2Y02kYY6DmMWtgq3hPSI/thumbnail.png"
-                            />
-                            <img
+                            /> */}
+                            {/* <img
                                 src="https://image.mux.com/fWGYbE6LIr4ICIRx97aTenK4aQBOlik02UWwwNCjRtsA/thumbnail.png"
-                            />
-                            <img
+                            /> */}
+                            {/* <img
                                 src="https://images.beta.cosmos.so/e0f9f7e3-9e3d-41df-a6f2-f155dc85c09f?format=webp"
-                            />
+                            /> */}
                         </div>
                     </section>
 
@@ -100,9 +140,16 @@ const HorizontalSection = () => {
                             </div>
                         </div>
                         <div className="w-single_gallery">
-                            <img
-                                src="https://image.mux.com/b7EecOFRXt7aIbzMbCEBFmdezPLbsfeJqwvoETAkj00o/thumbnail.png"
+                            <video
+                                loop
+                                autoPlay
+                                muted
+                                className="h-full aspect-square object-cover scale-75"
+                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747404982/armor_cus7l1.webm"
                             />
+                            {/* <img
+                                src="https://image.mux.com/b7EecOFRXt7aIbzMbCEBFmdezPLbsfeJqwvoETAkj00o/thumbnail.png"
+                            /> */}
                             <img
                                 src="https://image.mux.com/nr7EnaIAXw01AewsHmmZteXLr3K900v002NSMrTn6lAAP00/thumbnail.png"
                             />
