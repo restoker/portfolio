@@ -69,6 +69,7 @@ const Contact = () => {
                         <div className="contact-header">
                             <h1 className='text-4xl' ref={headerRef}>Contact</h1>
                         </div>
+
                         <div
                             className="socials"
                             ref={(el) => (sectionsRef.current[2] = el)}
@@ -92,15 +93,20 @@ const Contact = () => {
                                 </p>
                             </div>
                         </div>
+
                         <div className="mail" ref={(el) => (sectionsRef.current[3] = el)}>
                             <div className="title">
                                 <p>Mail</p>
                             </div>
                             <div className="item">
                                 <p>
-                                    <a href="#">contact@codegrid.com</a>
+                                    <a href="#">restoker7@gmail.com</a>
                                 </p>
                             </div>
+                        </div>
+
+                        <div className='mix-blend-difference absolute top-1/2 lg:right-20 lg:bottom-0'>
+                            <h1 className='text-white text-[5rem]'>Chau 🤟</h1>
                         </div>
                     </div>
                 </div>
