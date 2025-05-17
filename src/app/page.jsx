@@ -62,7 +62,7 @@ export default function Home() {
 
   return (
     <>
-      <section className="bg-gray-100 h-svh w-svw flex justify-center items-center">
+      <section className="bg-gray-100 h-svh flex justify-center items-center">
         <Hero />
       </section>
       <section className="bg-gray-100 h-svh flex justify-center items-center">

@@ -90,13 +90,24 @@ const HorizontalSection = () => {
                             {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406596/interactivehero_cirexd.webm */}
                             {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406648/fadesmothscroll_uycwaw.webm */}
                             {/* https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406704/grindspace_znehi7.webm */}
-                            <video
+                            <figure className="item relative flex-row-reverse group" data-article="article-1">
+                                <img
+                                    src="./img/1.webp"
+                                    className="object-cover object-center aspect-square h-full cursor-pointer"
+                                />
+                                <figcaption className="item__caption text-white mix-blend-difference absolute left-10 top-52  cursor-pointer">
+                                    <p className="item__caption-title group-hover:translate-x-5 duration-500">01 &mdash; Lolalolita</p>
+                                    <p className="item__caption-description group-hover:translate-x-5 duration-500 delay-150">Pagina web de lolalolita.</p>
+                                </figcaption>
+                            </figure>
+
+                            {/* <video
                                 loop
                                 autoPlay
                                 muted
                                 className="h-full aspect-square object-contain scale-90"
                                 src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747404982/armor_cus7l1.webm"
-                            />
+                            /> */}
                             <video
                                 loop
                                 autoPlay
@@ -175,7 +186,7 @@ const HorizontalSection = () => {
                                     loop
                                     autoPlay
                                     muted
-                                    className="h-full aspect-square object-contain scale-90 cursor-pointer w-fit"
+                                    className="h-full aspect-square object-contain scale-90 cursor-pointer"
                                     src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747405516/lavelada_j4ksnz.webm"
                                 />
                             </a>
@@ -208,14 +219,14 @@ const HorizontalSection = () => {
                                 loop
                                 autoPlay
                                 muted
-                                className="h-full aspect-square object-cover scale-90 cursor-pointer w-fit"
+                                className="h-full aspect-square object-cover scale-90 cursor-pointer"
                                 src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406648/fadesmothscroll_uycwaw.webm"
                             />
                             <video
                                 loop
                                 autoPlay
                                 muted
-                                className="h-full aspect-square object-contain scale-90 cursor-pointer w-fit object-center"
+                                className="h-full aspect-square object-contain scale-90 cursor-pointer object-center"
                                 src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747406704/grindspace_znehi7.webm"
                             />
                             {/* <img
