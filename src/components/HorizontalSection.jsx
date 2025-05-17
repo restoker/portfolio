@@ -108,13 +108,17 @@ const HorizontalSection = () => {
                                 className="h-full aspect-square object-contain scale-90"
                                 src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747404982/armor_cus7l1.webm"
                             /> */}
-                            <video
-                                loop
-                                autoPlay
-                                muted
-                                className="h-full aspect-square object-fill scale-75"
-                                src="https://res.cloudinary.com/dpp9idjjk/video/upload/v1747405862/thumbnailnavigation_ercuex.webm"
-                            />
+                            <figure className="item relative flex-row-reverse group" data-article="article-2">
+                                <img
+                                    src="./img/2.webp"
+                                    className="object-cover object-center aspect-square h-full cursor-pointer"
+                                />
+                                <figcaption className="item__caption text-white mix-blend-difference absolute left-10 top-52  cursor-pointer">
+                                    <p className="item__caption-title group-hover:translate-x-5 duration-500">01 &mdash; JSConf</p>
+                                    <p className="item__caption-description group-hover:translate-x-5 duration-500 delay-150">Pagina web para la JSConf de España.</p>
+                                </figcaption>
+                            </figure>
+
                             <video
                                 loop
                                 autoPlay

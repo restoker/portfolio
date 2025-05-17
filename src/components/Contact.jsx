@@ -84,12 +84,12 @@ const Contact = () => {
                             </div>
                             <div className="item">
                                 <p>
-                                    <a href="#">LinkedIn</a>
+                                    <a href="https://www.linkedin.com/in/milthon-ttito-7a54a6202/" rel='noreferrer' referrerPolicy='no-referrer'>LinkedIn</a>
                                 </p>
                             </div>
                             <div className="item">
                                 <p>
-                                    <a href="#">Vimeo</a>
+                                    <a rel='noreferrer' referrerPolicy='no-referrer' href="https://github.com/restoker">Github</a>
                                 </p>
                             </div>
                         </div>

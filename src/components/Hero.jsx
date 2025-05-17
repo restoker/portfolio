@@ -176,7 +176,10 @@ const Hero = () => {
                             {/* <video src="https://cdn.cosmos.so/90000df5-bfe1-4a55-806d-af2514df375e.mp4" loop muted autoPlay className="h-full w-full object-cover"> */}
                             {/* <video src="https://cdn.cosmos.so/9eb2455f-5ebe-4226-9a13-013226a48de8.mp4" loop muted autoPlay className="h-full w-full object-cover"> */}
                             {/* <video src="https://cdn.cosmos.so/b3c18e8e-e402-402e-a0e2-911cd735aba5.mp4" loop muted autoPlay className="h-full w-full object-cover" /> */}
-                            <video src="https://cdn.cosmos.so/615f672d-915e-485a-8a47-69a5b4209aae.mp4" loop muted autoPlay className="h-full w-full object-cover" />
+                            {/* <video src="https://cdn.cosmos.so/615f672d-915e-485a-8a47-69a5b4209aae.mp4" loop muted autoPlay className="h-full w-full object-cover" /> */}
+                            <video loop muted autoPlay playsInline className="h-full w-full object-cover">
+                                <source src="./img/bg1.webm" type="video/webm" />
+                            </video>
                             {/* <video src="https://cdn.cosmos.so/2a98ff36-eb40-4ca9-8e43-6c5de6abf383.mp4" loop muted autoPlay className="h-full w-full object-cover" /> */}
                         </div>
 
